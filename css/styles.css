@@ -8270,10 +8270,10 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 1% !important;
   margin: auto; display: block;
-  width: 250px;
-  height: 250px;
+  
+  height: 225px;
 }
 
 .rounded-pill {
@@ -10945,6 +10945,8 @@ header.masthead .bg-circle-4 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
+  border: none;
   
   
 }
@@ -10969,13 +10971,13 @@ header.masthead .bg-circle-4 {
 }
 
 .meetup {
-  background: #3B5998;
+  background: #e51937;
   color: white;
 }
 
 /* Twitter */
 .discord {
-  background: #55ACEE;
+  background: #7289da;
   color: white;
 }
 
