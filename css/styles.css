@@ -10870,7 +10870,9 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(12rem + 144px);
+  background-color: white;
+  margin-top: 70px;
+  padding-top: calc(12rem);
   padding-bottom: 12rem;
   background: #FFFFFF;
   background-image: url("../images/LogoBanner.png");
@@ -10921,4 +10923,62 @@ header.masthead .bg-circle-4 {
   top: -5rem;
   right: 35%;
 }
+
+
+
+
+.holder  {
+  
+  padding: 20px !important;
+  
+  font-size: 30px;
+  max-width: 75px !important;
+  width: 75px !important;
+  min-width: 75px !important;
+  max-height: 75px !important;
+  min-height: 75px !important; 
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+/* Add a hover effect if you want */
+.holder:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.meetup {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.discord {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
 
