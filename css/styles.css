@@ -10972,14 +10972,47 @@ header.masthead .bg-circle-4 {
 
 .meetup {
   background: #e51937;
+  border:#e51937 ;
   color: white;
 }
 
 /* Twitter */
 .discord {
   background: #7289da;
+  border: #7289da;
   color: white;
 }
+
+.discord:hover{
+  background: #7289da;
+  border: #7289da;
+  color: white;
+}
+
+.discord:visited{
+  background: #7289da;
+  border: #7289da;
+  color: white;
+}
+
+.discord:active{
+  background: #7289da;
+  border: #7289da;
+  color: white;
+}
+
+.meetup:hover {
+  background: #e51937;
+  border:#e51937 ;
+  color: white;
+}
+
+.meetup:visited {
+  background: #e51937;
+  border:#e51937 ;
+  color: white;
+}
+
 
 
 
