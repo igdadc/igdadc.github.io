@@ -11017,3 +11017,38 @@ header.masthead .bg-circle-4 {
 
 
 
+.steamframe {
+    display: block !important;
+    border-style:none;
+}
+
+
+.steamGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  text-align: center; 
+  justify-items: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .steamGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 50px;
+    text-align: center;
+    justify-items: center;
+    align-items: center; 
+  }
+}
+
+
+
+
+
+
+
