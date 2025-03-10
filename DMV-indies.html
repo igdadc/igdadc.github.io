@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>DMV Indies</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://kit.fontawesome.com/a1ab6beaa7.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top" style="background-color:  #D72027;">
+        <!-- Navigation-->
+        <div id = "overall-page-container" style=" max-width: 1200px !important; margin: auto;  border-style: double; border-width: 0 10px 0 10px; background-color: white;">
+        <nav class="navbar navbar-custom fixed-top navbar-expand-lg">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><img src ="images/LogoIconBanner.png" width="35px" height="35px"> IGDA DC</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto lines-between-items">
+                        <li class="nav-item"><a class="nav-link" href="https://www.meetup.com/igda-dc/" target="_blank" rel="noopener noreferrer">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://discord.gg/upXHsdDuQg" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                        <li class="nav-item"><a class="nav-link" href="DMV-indies.html"  rel="noopener noreferrer">DMV Indies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="districtarcade.html"  rel="noopener noreferrer">District Arcade</a></li>
+                        <li class="nav-item"><a class="nav-link" href="groups.html"  rel="noopener noreferrer">Other Groups</a></li>
+                        <li class="nav-item"><a class="nav-link" href="indieqacrew.html"  rel="noopener noreferrer">Indie QA Crew</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+       
+    <br/>
+    <br/>
+    <br/>
+
+
+    <div class="container" style="max-width: 890px; margin: auto;">
+
+        <br/>
+
+        <h2 class="display-4">DMV Indie Games</h2>
+        <p>
+            This is a simple list of all the indie steam games we know about made by devs from the DMV. Most of these are made by people who have attended at least 1 IGDA DC event, some are other more Baltimore based devs. If you want to add your game to the list, make sure you come to a meeting at least once and then message Joey, or another admin, on the Discord to be added to this page.
+        </p>
+
+
+
+
+    
+
+
+
+
+
+
+
+        <div id="grid" class="steamGridSingle">
+
+        
+        </div>
+
+
+        <script>
+
+
+            const Status = Object.freeze({
+                RELEASED: '1',
+                RELEASINGSOON: '2',
+                RELEASEDOLD: '3',
+                NONRELEASEDOLD: '4'
+              });
+            
+            
+            items = [
+                    { name: 'Hook Line and Sniper', steamid: 3143190, status: Status.RELEASED, releaseDate: "2025-03-07", priority: 1},
+                    { name: 'Scarlet City of Devils', steamid: 1449730, status: Status.RELEASED, releaseDate: "2025-03-07", priority: 1 },
+                    { name: 'Crab Crawl', steamid: 3254550, status: Status.RELEASED, releaseDate: "2024-11-11", priority: 1},
+                    { name: 'The Sand Knight', steamid: 1998350, status: Status.RELEASED, releaseDate: "2024-01-10", priority: 1},
+                    { name: 'Mooselutions', steamid: 2287140, status: Status.RELEASED, releaseDate: "2024-01-03", priority: 1},
+                    { name: 'Train Your Minibot', steamid: 713740, status: Status.RELEASED, releaseDate: "2021-01-10", priority: 1},
+
+
+
+
+                    { name: 'Aurora Nova', steamid: 2582460, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    { name: 'Crypt Crawler', steamid: 2627640, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    { name: 'Sunset High', steamid: 2997880, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    { name: 'BLUMA', steamid: 3032520, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    { name: 'Hero Bot', steamid: 2595100, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    { name: 'Nekomancer of Nowhere', steamid: 3180290, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    { name: 'Wish Creatures', steamid: 3094990, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    { name: 'Clean Corps', steamid: 2828410, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    { name: 'Fire and Rescue', steamid: 2784030, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    { name: 'Scrap Seas', steamid: 1535810, status: Status.NONRELEASEDOLD, releaseDate:"TBA", priority: 1},
+
+                    //Games I know from BIGies but not IGDA DC
+                    { name: 'Toroban', steamid: 1961850, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    { name: 'Sudoban', steamid: 2507380, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    { name: 'RPGirl', steamid: 2916660, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+
+                    { name: 'PictoPull', steamid: 1820790, status: Status.RELEASEDOLD, releaseDate: "2023-03-01" , priority: 1},     
+                    { name: 'Give the People What They Want', steamid: 1594440, status: Status.RELEASEDOLD, releaseDate: "2022-05-06", priority: 1},
+                    { name: 'The Girl Who Sees', steamid: 1551480, status: Status.RELEASEDOLD, releaseDate: "2021-06-21", priority: 1},
+                    { name: 'Bewildebots', steamid: 1014790, status: Status.RELEASEDOLD, releaseDate: "2019-06-01" , priority: 1},    
+                    { name: 'Robot Legions Reborn', steamid: 490880, status: Status.RELEASEDOLD, releaseDate: "2016-03-01" , priority: 1},    
+                    { name: 'Ooki Ooki Blocks', steamid: 399910, status: Status.RELEASEDOLD, releaseDate: "2011-03-01" , priority: 1},  
+
+
+                    { name: 'Over Many Waters', steamid: 2593640, status: Status.NONRELEASEDOLD, releaseDate: "TBA", priority: 1},
+                    { name: 'Fault and Fragment', steamid: 1111150, status: Status.NONRELEASEDOLD, releaseDate: "TBA", priority: 1}
+                    
+
+
+                    ]
+            ;
+
+
+
+            items.sort((a, b) => {
+                if (a.status !== b.status) {
+                    return a.status - b.status; 
+                }
+                if (a.priority !== b.priority) {
+                    return a.priority - b.priority;
+                }
+                return new Date(b.releaseDate) - new Date(a.releaseDate);
+            });
+            
+            var grid = document.getElementById("grid");
+            grid.innerHTML = "";
+            
+            
+            
+            items.forEach(function(item) {
+              grid.innerHTML += '<iframe class=\"steamframe\" src="https:\/\/store.steampowered.com\/widget\/' + item.steamid + '\/" frameborder="0" width="646" height="190"><\/iframe>';
+            });
+            
+            
+            
+            
+                    </script>
+        
+
+
+
+        <br/>
+        <br/>
+        <br/>
+    </div>
+  
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <div style="margin: auto; width: fit-content; align-items: center;">
+                <button onclick="window.location.href='https://www.facebook.com/dcigda/'" class="holder facebook"><i class="fa-brands fa-facebook"></i></button>
+                <button onclick="window.location.href='https://twitter.com/IGDA_DC'" class="holder twitter"><i class="fa-brands fa-twitter"></i></button>
+                <button onclick="window.location.href='https://www.meetup.com/igda-dc/'" class="holder meetup"><i class="fa-brands fa-meetup"></i></button>
+                <button onclick="window.location.href='https://discord.gg/upXHsdDuQg'" class="holder discord"><i class="fa-brands fa-discord"></i></button>
+            </div>
+            <br/>
+            <div class="container px-5"><p class="m-0 text-center text-white small">Contact us: igda.dc@gmail.com</p></div>
+            <br/>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        </div>
+    </body>
+</html>
