@@ -73,6 +73,7 @@
 
 
             const Status = Object.freeze({
+                PRIORITY: '0',
                 RELEASED: '1',
                 RELEASINGSOON: '2',
                 RELEASEDOLD: '3',
@@ -81,6 +82,33 @@
             
             
             items = [
+
+
+
+            
+
+                    { name: 'Inverted Journey', steamid: 2883130, status: Status.PRIORITY, releaseDate: "TBA", priority: 1},
+                    { name: 'Mage Farm', steamid: 4594090, status: Status.PRIORITY, releaseDate:"TBA", priority: 1},
+                    { name: 'King Scribble', steamid: 4234290, status: Status.PRIORITY, releaseDate: "TBA", priority: 1},
+                    { name: 'Caterpillar King', steamid: 3916610, status: Status.PRIORITY, releaseDate: "TBA", priority: 1},
+                    { name: 'Box is Alive', steamid: 3961120, status: Status.PRIORITY, releaseDate: "TBA", priority: 1},
+                    
+
+
+                    { name: 'BLUMA', steamid: 3032520, status: Status.RELEASED, releaseDate:"2025-11-09", priority: 1},
+                    
+                    { name: 'Vice Versa', steamid: 4078670, status: Status.RELEASED, releaseDate:"2026-03-20", priority: 1},
+                    { name: 'Boring Movies', steamid: 1792500, status: Status.RELEASED, releaseDate:"2024-11-5", priority: 2},
+                    { name: 'Git Gud', steamid: 1490570, status: Status.RELEASED, releaseDate:"2025-06-17", priority: 2},
+                    { name: 'Dexsweeper', steamid: 3819510, status: Status.RELEASED, releaseDate:"2025-11-13", priority: 2},
+
+
+                   
+                    { name: 'Toroban', steamid: 1961850, status: Status.RELEASED, releaseDate:"2025-12-01", priority: 1},
+                    
+                    { name: 'Crypt Crawler', steamid: 2627640, status: Status.RELEASED, releaseDate: "2025-09-23", priority: 1},
+                    { name: 'Nekomancer of Nowhere', steamid: 3180290, status: Status.RELEASED, releaseDate: "2025-10-31", priority: 1},
+                    { name: 'Slip n\' Slime', steamid: 1151990, status: Status.RELEASED, releaseDate:"2025-08-25", priority: 1},
                     { name: 'Hook Line and Sniper', steamid: 3143190, status: Status.RELEASED, releaseDate: "2025-03-07", priority: 1},
                     { name: 'Scarlet City of Devils', steamid: 1449730, status: Status.RELEASED, releaseDate: "2025-03-07", priority: 1 },
                     { name: 'Crab Crawl', steamid: 3254550, status: Status.RELEASED, releaseDate: "2024-11-11", priority: 1},
@@ -88,44 +116,70 @@
                     { name: 'The Sand Knight', steamid: 1998350, status: Status.RELEASED, releaseDate: "2024-01-10", priority: 1},
                     { name: 'Mooselutions', steamid: 2287140, status: Status.RELEASED, releaseDate: "2024-01-03", priority: 1},
                     { name: 'Train Your Minibot', steamid: 713740, status: Status.RELEASED, releaseDate: "2021-01-10", priority: 1},
+                    { name: 'Sunset High', steamid: 2997880, status: Status.RELEASED, releaseDate:"2025-07-23", priority: 2},
+                    { name: 'Blood On The Thames', steamid: 2732790, status: Status.RELEASED, releaseDate:"2024-10-31", priority: 1},
 
 
 
 
-                    { name: 'Aurora Nova', steamid: 2582460, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
-                    { name: 'Crypt Crawler', steamid: 2627640, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
-                    { name: 'Sunset High', steamid: 2997880, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
-                    { name: 'BLUMA', steamid: 3032520, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
-                    { name: 'Hero Bot', steamid: 2595100, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
-                    { name: 'Nekomancer of Nowhere', steamid: 3180290, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+
+                    { name: 'UNBEATABLE', steamid: 2240620, status: Status.RELEASED, releaseDate:"2025-12-09", priority: 2},
+
+
+                    
+
+                    { name: 'Heart_is_Muscle', steamid: 1978970, status: Status.RELEASED, releaseDate:"2022-10-01", priority: 2},
+
+
+                    { name: 'Camp Keepalive', steamid: 3637630, status: Status.RELEASED, releaseDate:"2025-07-14", priority: 2},
+                    
+                    { name: 'Tahitian Drifting', steamid: 3565460, status: Status.RELEASED, releaseDate:"2025-06-25", priority: 2},
+
+
+                    { name: 'Rebellion Stryker', steamid: 3255320, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    
+                    { name: 'Untold Depths', steamid: 3472960, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 2},
+                    
+                  
+                    
+
+                   
+                    { name: 'Compass Lost', steamid: 2870390, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    { name: 'Bake Until Done', steamid: 3392220, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    { name: 'Cloud Sculptor', steamid: 4101700, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
+                    
                     { name: 'Blue Ridge Hunting', steamid: 2434930, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
-                    { name: 'No Rest for the Weary', steamid: 3529140, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    
                     { name: 'Wish Creatures', steamid: 3094990, status: Status.RELEASINGSOON, releaseDate: "TBA", priority: 1},
                     { name: 'Clean Corps', steamid: 2828410, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
-                    { name: 'Slip n\' Slime', steamid: 1151990, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
                     { name: 'Dante\'s Nine', steamid: 3293350, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
                     { name: 'Primest Evil', steamid: 3011090, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
                     { name: 'Fire and Rescue', steamid: 2784030, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
-                    { name: 'Scrap Seas', steamid: 1535810, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    
                     
                     
                 
 
 
                     
-                    //Games I know from BIGies but not IGDA DC
-                    { name: 'Toroban', steamid: 1961850, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
+                    
+                    
                     { name: 'Sudoban', steamid: 2507380, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
                     { name: 'RPGirl', steamid: 2916660, status: Status.RELEASINGSOON, releaseDate:"TBA", priority: 1},
-
+                    
                     { name: 'PictoPull', steamid: 1820790, status: Status.RELEASEDOLD, releaseDate: "2023-03-01" , priority: 1},     
                     { name: 'Give the People What They Want', steamid: 1594440, status: Status.RELEASEDOLD, releaseDate: "2022-05-06", priority: 1},
                     { name: 'The Girl Who Sees', steamid: 1551480, status: Status.RELEASEDOLD, releaseDate: "2021-06-21", priority: 1},
                     { name: 'Bewildebots', steamid: 1014790, status: Status.RELEASEDOLD, releaseDate: "2019-06-01" , priority: 1},    
                     { name: 'Robot Legions Reborn', steamid: 490880, status: Status.RELEASEDOLD, releaseDate: "2016-03-01" , priority: 1},    
                     { name: 'Ooki Ooki Blocks', steamid: 399910, status: Status.RELEASEDOLD, releaseDate: "2011-03-01" , priority: 1},  
+                    { name: 'Frog World', steamid: 3073290, status: Status.RELEASEDOLD, releaseDate: "2024-08-15", priority: 1},
 
-
+                    
+                    { name: 'Aurora Nova', steamid: 2582460, status: Status.NONRELEASEDOLD, releaseDate: "TBA", priority: 1},
+                    { name: 'Scrap Seas', steamid: 1535810, status: Status.NONRELEASEDOLD, releaseDate:"TBA", priority: 1},
+                    { name: 'No Rest for the Weary', steamid: 3529140, status: Status.NONRELEASEDOLD, releaseDate:"TBA", priority: 1},
+                    { name: 'Hero Bot', steamid: 2595100, status: Status.NONRELEASEDOLD, releaseDate: "TBA", priority: 1},
                     { name: 'Over Many Waters', steamid: 2593640, status: Status.NONRELEASEDOLD, releaseDate: "TBA", priority: 1},
                     { name: 'Fault and Fragment', steamid: 1111150, status: Status.NONRELEASEDOLD, releaseDate: "TBA", priority: 1}
                     
